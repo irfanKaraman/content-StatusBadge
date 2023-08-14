@@ -1,1 +1,16 @@
+name: Azure_Project01_CI
 
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: "Who are you"
+        default: "name"
+
+jobs:
+    hello:
+        runs-on: ubuntu-latest
+
+        steps:
+        - name: Hello Step
+          run: echo "Hello ${{ github.event.inputs.name }}"
