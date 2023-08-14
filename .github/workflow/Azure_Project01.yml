@@ -1,9 +1,6 @@
 name: Azure_Project01_CI
 
 on:
-  push:
-    branches:
-      - status-badge
   workflow_dispatch:
     inputs:
       name:
