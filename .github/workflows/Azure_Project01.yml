@@ -6,9 +6,6 @@ on:
       name:
         description: "Who are you"
         default: "name"
-  push:
-  branches:
-    - status_badge
 
 jobs:
     hello:
