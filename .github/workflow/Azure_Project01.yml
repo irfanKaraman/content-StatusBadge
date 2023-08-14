@@ -7,7 +7,6 @@ on:
         description: "Who are you"
         default: "name"
 
-
 jobs:
     hello:
         runs-on: ubuntu-latest
